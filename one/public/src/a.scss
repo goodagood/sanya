@@ -1,0 +1,26 @@
+
+// Do it outside SASS, 
+// clean-css can do it, sucessed with .js script
+// .minify({
+//   'path/to/css': {'styles': 'file content'},
+//   ...
+// }
+
+
+//fail @import "normalize.css";
+//fail @import './normalize.css/normalize';
+//fail @import '../../node_modules/normalize.css/normalize.css';
+//fail @import url('../../node_modules/normalize.css/normalize.css');
+//fail @import url("../../node_modules/normalize.css/normalize");
+//?@import "../../node_modules/normalize.css/normalize";
+//@import url("../../node_modules/normalize.css/normalize");
+//@import "../../node_modules/normalize.css/normalize.css";
+
+
+body {
+    color: blue;
+}
+
+#myid {
+    font-size:88px;
+}
